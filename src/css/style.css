@@ -62,16 +62,22 @@ a {
     color: rgb(0, 0, 0);
 }
 
-main section{
+main section {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: space-evenly;
+    height: 50vh;
 
-main section p{
-    width: 45vw;
-    height: 20vh;
+  }
+
+  main figure{
+    display: flex;
+    justify-content: center;
+  }
+
+  main p{
     text-align: justify;
-}
-
-
+    width: 35vw;
+    height: 35vh;
+    font-size: 18px;
+  }
