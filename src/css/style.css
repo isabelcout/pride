@@ -10,3 +10,26 @@ body{
     background: pink;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 130, 238);
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid red;
+}
+
+header figure{
+    border: solid black;
+}
+
+header img{
+    width: 5vw;
+    
+}
+
