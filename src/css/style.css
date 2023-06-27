@@ -62,22 +62,38 @@ a {
     color: rgb(0, 0, 0);
 }
 
-main section {
+main .sobre {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 80vh;
+    border: solid red;
 
   }
 
-  main figure{
+  .sobre figure{
     display: flex;
     justify-content: center;
+    
   }
 
-  main p{
+  .sobre p{
     text-align: justify;
     width: 35vw;
-    height: 35vh;
     font-size: 18px;
+  }
+
+  .celebridades{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+
+  }
+
+  .celebridades img{
+    display: flex;
+    height: 35vh;
+    width: 22vw;
+    border-radius: 25px;
   }
