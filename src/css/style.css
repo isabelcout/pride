@@ -74,8 +74,6 @@ main .sobre {
 
   .sobre figure{
     margin-top: 50px;
-    display: block;
-    justify-content: center;
     
   }
 
@@ -115,4 +113,52 @@ main .sobre {
     font-size: 25px;
   }
 
-  
+  .canais{
+    height: 300vh;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   text-align: center;
+  }
+
+    .canais img {
+      height: 50vh;
+      width: 80vw;
+      border-radius: 25px;
+    }
+
+    .spotify{
+      text-align: center;
+    }
+
+    .spotify h2{
+      margin-bottom: 20px;
+    }
+
+    h3{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    iframe{
+      height: 80vh;
+      width: 80vw;
+    }
+
+    .central{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 70vh;
+    }
+
+
+    .central p{
+      text-align: justify;
+      width: 35vw;
+      font-size: 18px;
+    }
+
+    .central img{
+      border-radius: 10px;
+    }
