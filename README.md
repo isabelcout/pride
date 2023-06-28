@@ -1,7 +1,7 @@
 # pride
 
 <p align="center">
-    <img width="500" src="src/image/.png">
+    <img width="600" src="src/image/lgbt.jfif">
 </p>
 
 -------
