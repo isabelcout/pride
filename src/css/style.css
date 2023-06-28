@@ -62,17 +62,19 @@ a {
     color: rgb(0, 0, 0);
 }
 
+
 main .sobre {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 80vh;
-    border: solid red;
+    height: 70vh;
+    
 
   }
 
   .sobre figure{
-    display: flex;
+    margin-top: 50px;
+    display: block;
     justify-content: center;
     
   }
@@ -83,17 +85,32 @@ main .sobre {
     font-size: 18px;
   }
 
+  .sobre img{
+    border-radius: 10px;
+  }
+
   .celebridades{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 80vh;
+    height: 60vh;
 
   }
 
   .celebridades img{
     display: flex;
     height: 35vh;
-    width: 22vw;
+    width: 20vw;
     border-radius: 25px;
+  }
+
+  h2{
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  figcaption{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
   }
