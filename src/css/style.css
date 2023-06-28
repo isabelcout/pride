@@ -115,19 +115,4 @@ main .sobre {
     font-size: 25px;
   }
 
-  .canais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .canais ul{
-    list-style: none;
-  }
-
-  .canais img{
-    
-    width: 60vw;
-    border-radius: 20px;
-
-  }
+  
