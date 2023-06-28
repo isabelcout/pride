@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto Slab';
 }
 
 body{
@@ -87,6 +88,10 @@ main .sobre {
     border-radius: 10px;
   }
 
+  .sobre img:hover{
+    transform: scale(90%);
+  }
+
   .celebridades{
     display: flex;
     align-items: center;
@@ -100,6 +105,10 @@ main .sobre {
     height: 35vh;
     width: 20vw;
     border-radius: 25px;
+  }
+
+  .celebridades img:hover{
+    transform: scale(90%);
   }
 
   h2{
@@ -125,6 +134,10 @@ main .sobre {
       height: 50vh;
       width: 80vw;
       border-radius: 25px;
+    }
+
+    .canais img:hover{
+      transform: scale(90%);
     }
 
     .spotify{
@@ -153,12 +166,64 @@ main .sobre {
     }
 
 
-    .central p{
-      text-align: justify;
-      width: 35vw;
-      font-size: 18px;
+    .central ul{
+      width: 50vh;
+      list-style: circle;
+    }
+
+    .central li{
+      font-size: 20px;
     }
 
     .central img{
       border-radius: 10px;
     }
+
+    .central img:hover{
+      transform: scale(90%);
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #2f3c57;
+      color: #ffffff;
+      text-align: center;
+      bottom: 0;
+      left: 0;
+      height: 60px;
+      position: fixed;
+      width: 100%;
+      
+      
+    }
+
+    footer figure{
+      display: flex;
+      align-items: center;
+    }
+
+    .dev p{
+      font-size: 18px;
+
+    }
+
+    .dev a{
+      color: white;
+    }
+
+    .dev a:hover{
+      color: #ccb5b5;
+    }
+
+    footer a img:hover{
+      transform: scale(90%);
+    }
+    
+    .bandeira img:hover{
+      transform: scale(90%);
+    }
+    
+    
+    
